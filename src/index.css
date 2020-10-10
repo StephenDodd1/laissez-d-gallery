@@ -1,1 +1,17 @@
+div {
+  display: block;
+  height: 30px;
+  background: green
+}
 
+header {
+  display: block;
+  height: 250px;
+  background: blue
+}
+
+main{
+  display: block;
+  height: 350px;
+  background: yellow;
+}
