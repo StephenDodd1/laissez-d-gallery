@@ -1,6 +1,6 @@
 div {
   display: block;
-  height: 30px;
+  height: 40px;
   background: green
 }
 
@@ -10,8 +10,19 @@ header {
   background: blue
 }
 
-main{
+main {
   display: block;
   height: 350px;
   background: yellow;
+}
+
+div ul a {
+  color: orange;
+  font-size: 25px;
+  text-decoration: none;
+  border: solid black 1.5px;
+  margin: 10px;
+}
+div ul {
+  margin-top: 5px;
 }
