@@ -1,9 +1,7 @@
 div {
   display: block;
-  height: 40px;
-  background: green
+  height:50px;
 }
-
 header {
   display: block;
   height: 250px;
@@ -16,13 +14,43 @@ main {
   background: yellow;
 }
 
-div ul a {
+div .hidden a {
   color: orange;
   font-size: 25px;
   text-decoration: none;
   border: solid black 1.5px;
   margin: 10px;
 }
-div ul {
-  margin-top: 5px;
+a {
+  display: inline;
+  margin-left: -150px
+}
+.hidden {
+  display: none;
+  margin: auto;
+  height: 70px;
+}
+.expand {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: auto;
+  width: 277px;
+  padding-top: 7px;
+}
+div {
+  text-align: right;
+}
+.fa-bars {
+  position: relative;
+  font-size: 30px;
+  color: black;
+  margin-right: 10px;
+}
+.fa-bars:hover .hidden {
+  display: inline;
+  position: absolute;
 }

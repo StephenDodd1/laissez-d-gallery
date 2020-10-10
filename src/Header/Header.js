@@ -2,7 +2,9 @@ import React from 'react';
 
 function Header() {
   return(
-    <header></header>
+    <header>
+      <h1>Laissez D Gallery!</h1>
+    </header>
   )
 }
 
